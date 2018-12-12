@@ -40,10 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Constants.cs" />
+    <Compile Include="Global.cs" />
     <Compile Include="InMemoryRideDataBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scheduler.cs" />
+    <Compile Include="Models\Ride.cs" />
+    <Compile Include="Models\Taxi.cs" />
+    <Compile Include="Models\TaxiCompany.cs" />
+    <Compile Include="Models\TaxiDriver.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
